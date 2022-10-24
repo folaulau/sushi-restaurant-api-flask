@@ -1,0 +1,30 @@
+Resources
+
+Flask
+https://flask.palletsprojects.com/en/2.1.x/
+https://flask.palletsprojects.com/en/2.1.x/api/
+https://www.freecodecamp.org/news/structuring-a-flask-restplus-web-service-for-production-builds-c2ec676de563/
+https://towardsdatascience.com/creating-restful-apis-using-flask-and-python-655bad51b24
+
+Rest api
+https://flask-restful.readthedocs.io/en/latest/
+https://hevodata.com/learn/flask-api/
+https://www.datascienceblog.net/post/programming/flask-api-development/
+https://www.geeksforgeeks.org/python-build-a-rest-api-using-flask/
+
+Project Structure
+https://www.freecodecamp.org/news/structuring-a-flask-restplus-web-service-for-production-builds-c2ec676de563/
+http://exploreflask.com/en/latest/organizing.html
+
+Swagger
+https://medium.com/analytics-vidhya/swagger-ui-dashboard-with-flask-restplus-api-7461b3a9a2c8
+
+Security
+https://www.securecoding.com/blog/flask-security-best-practices/
+
+Flask Best Practices
+https://auth0.com/blog/best-practices-for-flask-api-development/
+https://python.plainenglish.io/flask-restful-apis-72e05f8d41fa
+
+Snowflake Python Connector
+https://docs.snowflake.com/en/user-guide/python-connector-example.html
