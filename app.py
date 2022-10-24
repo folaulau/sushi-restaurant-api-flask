@@ -9,6 +9,7 @@ def hello_world():  # put application's code here
 
 @app.route('/ping')
 def ping():  # put application's code here
+    print("ping")
     return 'up'
 
 if __name__ == '__main__':
