@@ -56,7 +56,9 @@ jobs:
           ECR_REGISTRY: ${{ steps.login-ecr.outputs.registry }}
           ECR_REPOSITORY: sushi-api-flask
         run: |
-          IMAGE_TAG=${GITHUB_REF##*/}-$(echo $GITHUB_SHA | cut -c 1-7)          
+          IMAGE_TAG=${GITHUB_REF##*/}-$(echo $GITHUB_SHA | cut -c 1-7) 
+          echo $IMAGE_TAG
+          echo $ECR_REPOSITORY         
           docker build -t $ECR_REPOSITORY:$IMAGE_TAG -t $ECR_REPOSITORY:latest .
           docker tag $ECR_REPOSITORY:latest $ECR_REGISTRY/$ECR_REPOSITORY:latest
           docker push $ECR_REGISTRY/$ECR_REPOSITORY:latest
